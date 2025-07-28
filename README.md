@@ -12,7 +12,7 @@ This website is designed to provide a seamless and enjoyable online shopping exp
 
 ## Technologies Used
 
-- **Frontend**: HTML, CSS, JavaScript (React.js, if applicable)
+- **Frontend**: HTML, CSS, JavaScript
 
 ## Installation Guide
 
