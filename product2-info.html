@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <title>Bó hoa len - CHIMADE.</title>
+            <link rel="icon" type="image/png" href="C.png"> 
+            <link rel="stylesheet" href="style.css">
+            <script src="https://kit.fontawesome.com/3d7a8808c6.js" crossorigin="anonymous"></script>
+    </head>
+    
+    <body>
+        <script src="index.js"></script>
+        <header>
+            <div class="logo">
+                <a href="index.html">        
+                    <img src="logo.png" 
+                    alt=""
+                    height="150px"></a>              
+            </div>
+
+            <nav>
+                <div class="content-nav">
+                    <ul>
+                        <li><a href="index.html">Trang chủ</a></li>
+                        <li><a href="product.html" >Sản phẩm</a></li>
+                        <li><a href="sale.html" >Sale</a></li>
+                        <li><a href="introduce.html">Giới thiệu</a></li>
+                        </ul>
+                <form>
+                    <input type="text" name="search" placeholder="Tìm kiếm sản phẩm..." />
+                    <button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+                </form>
+                </div>
+            <button id="cart">
+                <i class="fa fa-shopping-basket" aria-hidden="true"></i>
+                Giỏ Hàng
+            </button>
+            <div id="myModal" class="modal">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Giỏ Hàng</h5>
+                        <span class="close">&times;</span>
+                    </div>
+                    <div class="modal-body">
+                        <div class="cart-row">
+                            <span class="cart-item cart-header cart-column">Sản Phẩm</span>
+                            <span class="cart-price cart-header cart-column">Giá</span>
+                            <span class="cart-quantity cart-header cart-column">Số Lượng</span>
+                        </div>
+                        <div class="cart-items">
+    
+                        </div>
+                        <div class="cart-total">
+                            <strong class="cart-total-title">Tổng Cộng:</strong>
+                            <span class="cart-total-price">0VNĐ</span>
+                        </div>
+                    </div>
+    
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary close-footer">Đóng</button>
+                        <button type="button" class="btn btn-primary order">Thanh Toán</button>
+                    </div>
+                </div>
+            </div>
+            </nav>
+        </header>
+
+        <div class="return">
+            <a href="index.html">Trang chủ </a>
+            /
+            <a href="bouquet.html">Bouquet</a>
+             / Bó hoa len
+        </div>
+
+        <div class="product-image">
+            <img src="pic2.png" alt=""
+            width="500px"
+            height="500px">
+        </div>
+
+        <div class="product-content">
+            <div class="pro-name">Hoa thích thì mua</div>
+            <div class="pro-price">230.000 Đ</div>
+            
+            <div class="pro-info">
+                <h4>Thông tin sản phẩm</h4>
+                <p>- Chất liệu: kẽm nhung</p>
+                <p>- Thương hiệu: Chimade. </p>
+                <p>- Sản xuất: Việt Nam   </p>
+                <p>- Màu sắc và họa tiết được thiết kế riêng bởi team design Chimade.</p>
+                <p>&nbsp;</p>
+                <p>+ HƯỚNG DẪN BẢO QUẢN SẢN PHẨM Chimade.</p>
+                <p>- Không dùng hóa chất tẩy mạnh lên sản phẩm</p>
+                <P>- Không dùng vật dụng sắc, nhọn cà trực tiếp lên bề mặt hoa</P>
+                <P>- Không giặt máy</P>
+                <p>- Sử dụng bàn chải có lông mềm</p>
+                <p>- Tuyệt đối không dùng bàn chải cước cứng sẽ gây ra các vết xước </p>
+                <p>&nbsp;</p>
+                <p>+ CHÍNH SÁCH ĐỔI SẢN PHẨM:</p>
+                <p>1.Điều kiện đổi hàng</p>
+                <p>- Bạn lưu ý giữ lại hoá đơn để đổi hàng trong vòng 30 ngày..</p>
+                <p>- Tất cả sản phẩm đã mua sẽ không được đổi trả lại bằng tiền mặt.</p>
+                <p>- Bạn có thể sản phẩm khác trong 30 ngày (Lưu ý: sản phẩm chưa qua sử dụng, còn tag nhãn và hóa đơn mua hàng.)</p>
+                <p>- Bạn vui lòng gửi cho chúng mình clip đóng gói và hình ảnh của đơn hàng đổi trả của bạn, nhân viên tư vấn sẽ xác nhận và tiến hành lên đơn đổi trả cho bạn.</p>
+                <p>&nbsp;</p>
+                <p>2. Trường hợp khiếu nại</p>
+                <p>- Bạn phải có video unbox hàng</p>
+                <p>- Quay video rõ nét của gói hàng</p>
+                <p>- Quay rõ: Tên người nhận, mã đơn, địa chỉ, số điện thoại.</p>
+                <p>- Video không cắt ghép, chỉnh sửa</p>
+                <p>- Chimade. xin không tiếp nhận giải quyết các trường hợp không thỏa các điều kiện trên.</p>
+            </div>
+        </div>
+
+        <hr>
+        <div id="wrapper">
+            <div class="product-headline">
+                <h2>Tất cả sản phẩm</h2>
+            </div>
+            <ul class="product">
+                <li>
+                    <div class="product-item">
+                        <div class="product-top">
+                            <a href="product1-info.html" class="product-thumb">
+                                <img src="pic1.png" alt=""></a>
+                                <div class="product-info">
+                                    <a href="bouquet.html" class="product-cat">Bouquet</a>
+                                    <a href="product1-info.html" class="product-name">Bó hoa len</a>
+                                <div class="product-price">250.000 Đ</div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="product-item">
+                        <div class="product-top">
+                            <a href="product2-info.html" class="product-thumb">
+                                <img src="pic2.png" alt=""></a>
+                            <div class="product-info">
+                                <a href="bouquet.html" class="product-cat">Bouquet</a>
+                                <a href="product2-info.html" class="product-name">Hoa thích thì mua</a>
+                                <div class="product-price">230.000 Đ</div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="product-item">
+                        <div class="product-top">
+                            <a href="product4-info.html" class="product-thumb">
+                                <img src="pic4.png" alt=""></a>
+                            <div class="product-info">
+                                <a href="bouquet.html" class="product-cat">Bouquet</a>
+                                <a href="product4-info.html" class="product-name">Hoa xinh ghệ iu</a>
+                                <div class="product-price">200.000 đ</div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        
+
+        <footer>
+            <div class="lisupport">
+                <div class="support-headline">
+                    <h2>Hỗ trợ khách hàng</h2>
+                </div>
+                <ul class="support">
+                    <li><a href="introduce.html">Giới thiệu Chimade.</a></li>
+                    <li><a href="product.html">Sản phẩm của Chi</a></li>
+                    <li><a href="sale.html">Những ưu đãi </a></li>
+                </ul>
+            </div>
+            <div class="address">
+                <div class="address-headline">
+                    <h2>Địa chỉ</h2>
+                </div>
+                <ul class="address-list">
+                    <li><h5>Sài Gòn:</h5>
+                        869 Âu Cơ, Phường 14, Tân Phú, Thành phố Hồ Chí Minh
+                    </li>
+                    <li>
+                        <h5>Điện thoại:</h5> 0944536434
+                    </li>
+                    <li>
+                        <h5>Email: </h5>chimaingoctrinh@gmail.com
+                    </li>
+                </ul>
+            </div>
+            <div class="takecare">
+                <h2>Chăm sóc khách hàng</h2>
+                <div class="contact">
+                    <h4>SĐT: 0944536434</h4>
+                    <h4>Gmail: chimaingoctrinh@gmail.com </h4>
+                </div>
+            </div>
+            <div class="follow">
+                <h2>Follow Us</h2>
+                <div class="icon">
+                    <a href="https://www.facebook.com/profile.php?id=100025178761777&mibextid=LQQJ4d"
+                    target="_blank">
+                    <i class="fa-brands fa-square-facebook" style="color: #ffffff;"></i>
+                    </a>
+                    <a href="https://www.instagram.com/trinhngocmaichi/"
+                    target="_blank">
+                    <i class="fa-brands fa-square-instagram" style="color: #ffffff;"></i>
+                    </a>
+                    <a href="https://www.youtube.com/channel/UCng7s4LsU0n88ybK73dfILg"
+                    target="_blank">
+                    <i class="fa-brands fa-square-youtube" style="color: #ffffff;"></i>
+                    </a>
+                    <a href="" target="_blank"><i class="fa-brands fa-google" style="color: #ffffff;"></i></a>
+                </div>
+            </div>
+            
+        </footer>
+        <hr>
+            <div class="copyright">
+                <h4>Copyright 2023 Chimade. Powered by Trinh Ngoc Mai Chi</h4>
+            </div>
+
+    </body>
+</html>
